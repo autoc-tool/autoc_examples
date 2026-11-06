@@ -1,0 +1,38 @@
+/*
+ * Copyright (c) 2025 Li Auto Inc. and its affiliates
+ * Licensed under the Apache License, Version 2.0(the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/*!*********************************************************************************************************************
+ * @file        pdur_interface.h
+ * @brief       PduR接口头文件
+ * @details     主要包含PduR接口的配置
+ * @date        2026-10-26 10:16:14
+ * @toolversion V0.1.0-DEV
+ **********************************************************************************************************************/
+
+#ifndef PDUR_INTERFACE_H
+#define PDUR_INTERFACE_H
+/* Description: PduR 所有模块接口头文件 */
+#include "PduR_CanIf.h"
+#include "PduR_Com.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* PDUR_INTERFACE_H */
