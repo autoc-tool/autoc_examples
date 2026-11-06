@@ -1,0 +1,16 @@
+/* Adapter: Studio PC gen still emits Infineon Can_17_McmCan_* names; mcal_pc uses Can_*. */
+#ifndef CAN_17_MCMCAN_ADAPTER_H
+#define CAN_17_MCMCAN_ADAPTER_H
+#include "Can.h"
+#define Can_17_McmCan_Write Can_Write
+#define Can_17_McmCan_SetControllerMode Can_SetControllerMode
+#define Can_17_McmCan_Init Can_Init
+#define Can_17_McmCan_GetControllerMode Can_GetControllerMode
+#define Can_17_McmCan_DisableControllerInterrupts Can_DisableControllerInterrupts
+#define Can_17_McmCan_EnableControllerInterrupts Can_EnableControllerInterrupts
+#define Can_17_McmCan_MainFunction_Write Can_MainFunction_Write
+#define Can_17_McmCan_MainFunction_Read Can_MainFunction_Read
+#define Can_17_McmCan_MainFunction_Mode Can_MainFunction_Mode
+#define Can_17_McmCan_MainFunction_BusOff Can_MainFunction_BusOff
+#define Can_17_McmCan_DeInit Can_DeInit
+#endif
