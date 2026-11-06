@@ -1,0 +1,119 @@
+{
+    "project": "minimal_system5",
+    "version": "V0.1.0-DEV",
+    "system_version": "V0.1.0-DEV",
+    "compiler": "vs20xx",
+    "target": "PC_Common",
+    "mode": "release",
+    "generation_limit": "Error",
+    "modules_info": {
+        "enabled_module_list": [
+            "EcuC",
+            "Os",
+            "Can",
+            "CanIf",
+            "Com",
+            "PduR",
+            "CanSM",
+            "ComM",
+            "EcuM",
+            "BswM",
+            "Crc",
+            "Det",
+            "Rte"
+        ],
+        "codegen_module_list": [],
+        "validation_module_list": [],
+        "codegen_swc_list": [],
+        "bsw_ecuc_hash": {
+            "bsw": {
+                "com": {
+                    "autosar_hash": "4e64d362aab1b2d8948642dcf62b6ce4551ad8a7712015b19861c44d6db517c2",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "pdur": {
+                    "autosar_hash": "2bc3b5757b327076750798d153284570c40a4e2c6a4468f6d3a241a29d1bd672",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "canif": {
+                    "autosar_hash": "6ac4fbb2e1d5320e9b45d046e2e5ef9e77498a11aa32859e32f358bfec9eb6e0",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "cansm": {
+                    "autosar_hash": "246a6af14dc8d55f31cb87d56401b0aa9f229d78fc192c4b180f513acb5de8ba",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "det": {
+                    "autosar_hash": "24e765ba014c88c44fa57388427372348104c80d5533c5c5592f17c3e39a9de9",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "bswm": {
+                    "autosar_hash": "9df47a04020798b12bf157de27cdaad3cd69988437019a679811ea5277655007",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "comm": {
+                    "autosar_hash": "90b824cce21b30835ddbdde52811018688c04dc72c9a24a3a399b9fa919a4523",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "crc": {
+                    "autosar_hash": "3eb9d3d792846c6d202b1df04fd95cb07b9f100470dff5d1b761a338e288553d",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "ecum": {
+                    "autosar_hash": "becb2de60a68673f58ee0e6ff4f2b7f52e9df5621223f562b43c588865d22c1f",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "os": {
+                    "autosar_hash": "99b88346f5b457894196831237b7405483c4c210f768b7da61f0ece573e822ae",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "rte": {
+                    "autosar_hash": "c974bca014b7f72599e8f950b47a7d40621d03ff31c740ec76a004199953e040",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                },
+                "can": {
+                    "autosar_hash": "93ee057375101d5b4a698322434bf23707491b6507a050dffb7b4a646e6652ff",
+                    "code_hash": "EMPTY_DIRECTORY_HASH"
+                }
+            },
+            "unchanged_modules": []
+        }
+    },
+    "config_path": "",
+    "gendata_path": "gen_data",
+    "is_add_channel_name": false,
+    "path": {
+        "config_base_path": "config",
+        "swc_template_path": "../../apps/asw_swc",
+        "bswcallout_path": "../../apps/bsw_user_callout",
+        "import_plugin_path_list": [],
+        "user_plugin_output_path": "config/gen_data",
+        "config_file_path": {
+            "ldf": {
+                "num": 0,
+                "list": {}
+            },
+            "dbc": {
+                "num": 0,
+                "list": {}
+            },
+            "cdd": {
+                "num": 0,
+                "single_signal": true,
+                "list": {}
+            },
+            "swc": "",
+            "eb_arxml": ""
+        },
+        "studio_path": "../../../../vcos_studio/configurator",
+        "application_path": "../../apps",
+        "internal_behavior_path": "config/internal_behavior",
+        "log_path": "log",
+        "service_component_path": "config/service_components",
+        "compiler_path": "",
+        "mcal_path": "../../../../components/autoc_mcal",
+        "mcal_gendata_path": "",
+        "system_path": "../../../../components/autoc_mcal/configurator_plug_in"
+    },
+    "MCAL_VERSION": "PC_MCAL_0.1.0"
+}
